@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/drawable/bg_gary_conor_10.xml" value="0.108" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/drawable/bg_white_conor_10.xml" value="0.108" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/drawable/bg_white_conor_10_border_gary.xml" value="0.108" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/drawable/bg_white_conor_16.xml" value="0.108" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/drawable/bg_white_conor_16top_l_r.xml" value="0.108" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/layout/dialog_addphong.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/layout/fragment_phongtro_.xml" value="0.17074275362318841" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/layout/header.xml" value="0.23722627737226276" />
+        <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/menu/menu.xml" value="0.3681640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
