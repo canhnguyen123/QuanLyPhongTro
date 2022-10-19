@@ -24,33 +24,14 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class hopDongFragment extends Fragment {
     FloatingActionButton fab;
 
-    //dialog them
-    EditText ed_TenKhach_HD, ed_giaThue_HD, ed_tienCoc_HD;
-    Spinner spinner_soPhong_HD;
-    DatePicker ed_batDau_HD, ed_ketThuc_HD;
-    CheckBox chk_dien, chk_nuoc, chk_wifi, chk_VS;
-    Button btn_them_HD, btn_huy_HD;
-
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        ed_TenKhach_HD = view.findViewById(R.id.ed_TenKhach_HD);
-        ed_giaThue_HD = view.findViewById(R.id.ed_giaThue_HD);
-        ed_tienCoc_HD = view.findViewById(R.id.ed_tienCoc_HD);
-        spinner_soPhong_HD = view.findViewById(R.id.spinner_soPhong_HD);
-        ed_batDau_HD = view.findViewById(R.id.ed_batDau_HD);
-        ed_ketThuc_HD = view.findViewById(R.id.ed_ketThuc_HD);
-        chk_dien = view.findViewById(R.id.chk_dien);
-        chk_nuoc = view.findViewById(R.id.chk_nuoc);
-        chk_wifi = view.findViewById(R.id.chk_wifi);
-        chk_VS = view.findViewById(R.id.chk_VS);
-        btn_them_HD = view.findViewById(R.id.btn_them_HD);
-        btn_huy_HD = view.findViewById(R.id.btn_huy_HD);
         fab = view.findViewById(R.id.fab_addHopDong);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openDialog(getActivity());
+                openDialog(getContext());
             }
         });
     }

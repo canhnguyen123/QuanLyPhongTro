@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.quanlyduan.fragment.hopDongFragment;
 import com.example.quanlyduan.fragment.phongtro_Fragment;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.navigation.NavigationView;
@@ -27,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     NavigationView navigationView;
     FragmentManager fragmentManager;
     Intent intent;
-
 
 
     @Override
@@ -45,22 +45,31 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout = findViewById(R.id.Draw_layout);
         navigationView = findViewById(R.id.Draw_nav);
         fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().add(R.id.fragment_main,new phongtro_Fragment()).commit();
+        fragmentManager.beginTransaction().add(R.id.fragment_main, new phongtro_Fragment()).commit();
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-                switch (item.getItemId())
-                {
+                switch (item.getItemId()) {
                     case R.id.nav_phongtro:
-                        fragmentManager.beginTransaction().replace(R.id.fragment_main,new phongtro_Fragment()).commit();
+                        replaceFragment(new hopDongFragment());
                         getSupportActionBar().setTitle("Quản Lý Phong Tro");
                         break;
+                    case R.id.nav_khachthue:
+                        getSupportActionBar().setTitle("Quản Lý Khách Thuê");
+                        break;
+                    case R.id.nav_hopdong:
+                        replaceFragment(new hopDongFragment());
+                        getSupportActionBar().setTitle("Quản Lý Hợp Đồng");
+                        break;
                     case R.id.nav_dichvu:
-                        Toast.makeText(getBaseContext(),"Dich Vu",Toast.LENGTH_SHORT).show();
+                        getSupportActionBar().setTitle("Quản Lý Dịch Vụ");
                         break;
                     case R.id.nav_hoadon:
-                        
+                        getSupportActionBar().setTitle("Quản Lý Hóa Đơn");
+                        break;
+                    case R.id.nav_doanhthu:
+                        getSupportActionBar().setTitle("Doanh Thu");
                         break;
 
                 }
@@ -68,21 +77,23 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+    }
 
-
+    public void replaceFragment(Fragment fragment) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.fragment_main, fragment, fragment.getClass().getSimpleName())
+                .commit();
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if(item.getItemId()== android.R.id.home )
-        {
+        if (item.getItemId() == android.R.id.home) {
             drawerLayout.openDrawer(navigationView);
 
         }
 
         return super.onOptionsItemSelected(item);
     }
-
 
 
 }
