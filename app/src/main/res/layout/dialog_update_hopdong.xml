@@ -16,7 +16,7 @@
             android:background="@drawable/bg_white_conor_16top_l_r"
             android:gravity="center"
             android:padding="15dp"
-            android:text="Thêm mới thông tin hợp đồng"
+            android:text="Sửa thông tin hợp đồng"
             android:textColor="@android:color/black"
             android:textSize="25dp" />
 
@@ -35,7 +35,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:text="Thêm tên khách thuê" />
+                    android:text="Sửa tên khách thuê" />
 
                 <EditText
                     android:id="@+id/ed_TenKhach_HD"
@@ -74,7 +74,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:text="Nhập giá thuê" />
+                    android:text="Sửa giá thuê" />
 
                 <EditText
                     android:id="@+id/ed_giaThue_HD"
@@ -95,7 +95,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:text="Nhập tiền cọc" />
+                    android:text="Sửa tiền cọc" />
 
                 <EditText
                     android:id="@+id/ed_tienCoc_HD"
@@ -123,7 +123,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_white_conor_10_border_gary"
-                    android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
                     android:hint="18/10/2022"
                     android:padding="20dp" />
             </LinearLayout>
@@ -145,7 +144,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_white_conor_10_border_gary"
-                    android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
                     android:hint="18/10/2025"
                     android:padding="20dp" />
             </LinearLayout>
@@ -215,7 +213,7 @@
                     android:layout_margin="10dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_yellow_conor_10"
-                    android:text="Thêm" />
+                    android:text="Sửa" />
 
                 <Button
                     android:id="@+id/btn_huy_HD"

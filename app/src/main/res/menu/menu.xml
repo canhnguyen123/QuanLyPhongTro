@@ -2,23 +2,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_phongtro"
-            android:title="Phòng trọ"
-            android:icon="@drawable/home"/>
-        <item android:id="@+id/nav_khachthue"
-            android:title="Khách thuê"
-            android:icon="@drawable/user"/>
-        <item android:id="@+id/nav_hopdong"
-            android:title="Hợp đồng"
-            android:icon="@drawable/hopdong"/>
-        <item android:id="@+id/nav_doanhthu"
-            android:title="Doanh thu"
-            android:icon="@drawable/doanhthu"/>
-        <item android:id="@+id/nav_dichvu"
-            android:title="Dịch vụ"
-            android:icon="@drawable/user"/>
-        <item android:id="@+id/nav_hoadon"
-            android:title="Hóa đơn"
-            android:icon="@drawable/hoadon"/>
+        <item
+            android:id="@+id/nav_phongtro"
+            android:icon="@drawable/home"
+            android:title="Phòng trọ" />
+        <item
+            android:id="@+id/nav_khachthue"
+            android:icon="@drawable/user"
+            android:title="Khách thuê" />
+        <item
+            android:id="@+id/nav_hopdong"
+            android:icon="@drawable/hopdong"
+            android:title="Hợp đồng" />
+        <item
+            android:id="@+id/nav_dichvu"
+            android:icon="@drawable/user"
+            android:title="Dịch vụ" />
+        <item
+            android:id="@+id/nav_hoadon"
+            android:icon="@drawable/hoadon"
+            android:title="Hóa đơn" />
+        <item
+            android:id="@+id/nav_doanhthu"
+            android:icon="@drawable/doanhthu"
+            android:title="Doanh thu" />
     </group>
 </menu>
