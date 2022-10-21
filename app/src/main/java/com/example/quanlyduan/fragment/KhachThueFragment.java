@@ -111,17 +111,17 @@ public class KhachThueFragment extends Fragment {
                         else {
                             Toast.makeText(context, "Sửa thất bại !!", Toast.LENGTH_SHORT).show();
                         }
-                        }
+                    }
                     capNhatLV();
                     dialog.dismiss();
-                    }
                 }
-            });
+            }
+        });
         dialog.show();
     }
 
     public void update(){
-       openDialog(getContext(),0);
+        openDialog(getContext(),0);
     }
 
     public void xoa(final String id ){
