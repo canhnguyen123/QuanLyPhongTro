@@ -29,25 +29,6 @@ public class DbHelper extends SQLiteOpenHelper {
         db.execSQL(createTableKhachThue);
 
 
-        String createTable = " create table KhachThue (" +
-                "Id INTEGER PRIMARY KEY," +
-                "hoTen TEXT NOT NULL," +
-                "Sdt INTERGER NOT NULL," +
-                "Cccd INTERGER NOT NULL," +
-                "SoPhong TEXT )";
-        db.execSQL(createTableKhachThue);
-
-
-
-        String createTabletsf = " create table KhachThue (" +
-                "Id INTEGER PRIMARY KEY," +
-                "hoTen TEXT NOT NULL," +
-                "Sdt INTERGER NOT NULL," +
-                "Cccd INTERGER NOT NULL," +
-                "SoPhong TEXT )";
-        db.execSQL(createTableKhachThue);
-
-
 
     }
 
