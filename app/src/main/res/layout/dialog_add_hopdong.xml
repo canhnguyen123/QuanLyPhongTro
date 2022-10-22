@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <TextView
@@ -15,10 +15,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/bg_white_conor_16top_l_r"
             android:gravity="center"
-            android:padding="15dp"
-            android:text="Thêm mới thông tin hợp đồng"
+            android:padding="15sp"
+            android:text="Them thong tin hop dong"
             android:textColor="@android:color/black"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,13 +29,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16sp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:text="Thêm tên khách thuê" />
+                    android:text="Them ten kahch thue" />
 
                 <EditText
                     android:id="@+id/ed_TenKhach_HD"
@@ -43,14 +43,22 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_white_conor_10_border_gary"
                     android:hint="Tên khách thuê"
-                    android:padding="20dp" />
+                    android:padding="20sp" />
+
+                <TextView
+                    android:id="@+id/txt_errTenKhach"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text=""
+                    android:textColor="#FF0101" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16sp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -68,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16sp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -82,14 +90,22 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_white_conor_10_border_gary"
                     android:hint="5.000.000"
-                    android:padding="20dp" />
+                    android:padding="20sp" />
+
+                <TextView
+                    android:id="@+id/txt_errGiaThue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text=""
+                    android:textColor="#FF0101" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16sp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -103,14 +119,23 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_white_conor_10_border_gary"
                     android:hint="5.000.000"
-                    android:padding="20dp" />
+                    android:padding="20sp" />
+
+                <TextView
+                    android:id="@+id/txt_errTienCoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text=""
+                    android:textColor="#FF0101" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16sp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -123,22 +148,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_white_conor_10_border_gary"
-                    android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
-                    android:hint="18/10/2022"
-                    android:padding="20dp" />
+                    android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+                    android:hint="dd/mm/yyyy"
+                    android:padding="20sp" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16sp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="start"
-                    android:text="Chọn ngày hết hạn" />
+                    android:text="Chon ngay het han" />
 
                 <EditText
                     android:id="@+id/ed_ketThuc_HD"
@@ -146,8 +171,8 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_white_conor_10_border_gary"
                     android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
-                    android:hint="18/10/2025"
-                    android:padding="20dp" />
+                    android:hint="dd/mm/yyyy"
+                    android:padding="20sp" />
             </LinearLayout>
 
 
@@ -155,7 +180,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:padding="16sp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -169,14 +194,14 @@
 
                     <CheckBox
                         android:id="@+id/chk_dien"
-                        android:layout_width="182dp"
+                        android:layout_width="182sp"
                         android:layout_height="wrap_content"
                         android:gravity="start"
                         android:hint="Điện" />
 
                     <CheckBox
                         android:id="@+id/chk_nuoc"
-                        android:layout_width="182dp"
+                        android:layout_width="182sp"
                         android:layout_height="wrap_content"
                         android:gravity="start"
                         android:hint="Nước" />
@@ -188,14 +213,14 @@
 
                     <CheckBox
                         android:id="@+id/chk_wifi"
-                        android:layout_width="182dp"
+                        android:layout_width="182sp"
                         android:layout_height="wrap_content"
                         android:gravity="start"
                         android:hint="Wifi" />
 
                     <CheckBox
                         android:id="@+id/chk_VS"
-                        android:layout_width="182dp"
+                        android:layout_width="182sp"
                         android:layout_height="wrap_content"
                         android:gravity="start"
                         android:hint="Vệ sinh" />
@@ -206,22 +231,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="16dp">
+                android:padding="16sp">
 
                 <Button
                     android:id="@+id/btn_them_HD"
-                    android:layout_width="0dp"
+                    android:layout_width="0sp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_margin="10sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_yellow_conor_10"
                     android:text="Thêm" />
 
                 <Button
                     android:id="@+id/btn_huy_HD"
-                    android:layout_width="0dp"
+                    android:layout_width="0sp"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_margin="10sp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_gary_conor_10"
                     android:text="Hủy" />

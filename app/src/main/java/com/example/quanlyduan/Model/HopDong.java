@@ -1,17 +1,18 @@
 package com.example.quanlyduan.Model;
 
 public class HopDong {
-    private String tenKhachThue, giaThue, tienCoc, ngayBatDau,ngayHetHan;
+    private String tenKhachThue, ngayBatDau, ngayHetHan;
+    private int giaThue, tienCoc;
 
     public HopDong() {
     }
 
-    public HopDong(String tenKhachThue, String giaThue, String tienCoc, String ngayBatDau, String ngayHetHan) {
+    public HopDong(String tenKhachThue, String ngayBatDau, String ngayHetHan, int giaThue, int tienCoc) {
         this.tenKhachThue = tenKhachThue;
-        this.giaThue = giaThue;
-        this.tienCoc = tienCoc;
         this.ngayBatDau = ngayBatDau;
         this.ngayHetHan = ngayHetHan;
+        this.giaThue = giaThue;
+        this.tienCoc = tienCoc;
     }
 
     public String getTenKhachThue() {
@@ -20,22 +21,6 @@ public class HopDong {
 
     public void setTenKhachThue(String tenKhachThue) {
         this.tenKhachThue = tenKhachThue;
-    }
-
-    public String getGiaThue() {
-        return giaThue;
-    }
-
-    public void setGiaThue(String giaThue) {
-        this.giaThue = giaThue;
-    }
-
-    public String getTienCoc() {
-        return tienCoc;
-    }
-
-    public void setTienCoc(String tienCoc) {
-        this.tienCoc = tienCoc;
     }
 
     public String getNgayBatDau() {
@@ -52,5 +37,21 @@ public class HopDong {
 
     public void setNgayHetHan(String ngayHetHan) {
         this.ngayHetHan = ngayHetHan;
+    }
+
+    public int getGiaThue() {
+        return giaThue;
+    }
+
+    public void setGiaThue(int giaThue) {
+        this.giaThue = giaThue;
+    }
+
+    public int getTienCoc() {
+        return tienCoc;
+    }
+
+    public void setTienCoc(int tienCoc) {
+        this.tienCoc = tienCoc;
     }
 }

@@ -3,18 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cornerRadius="20sp"
+    app:cornerRadius="20dp"
     android:orientation="vertical"
 
     android:background="@drawable/bg_white_conor_16">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="15sp"
-        android:textSize="25sp"
+        android:padding="15dp"
+        android:textSize="25dp"
         android:text="Thêm mới thôn tin phòng"
         android:gravity="center"
-        android:background="@color/yellow"
+        android:background="@drawable/yellow"
         android:textColor="@android:color/black"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,33 +24,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16sp">
+            android:padding="16dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:text="Thêm số phòng"/>
+                android:text="Sửa số phòng"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="201"
-                android:id="@+id/edit_addsophong"
-                android:background="@drawable/bg_white_conor_10_border_gary"
-                android:padding="20sp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:id="@+id/loisophong"
-                android:textColor="#FF0101"
-                android:text=""/>
+                android:text="Phòng 201"/>
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16sp">
+            android:padding="16dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -63,7 +55,7 @@
                 android:hint="1"
                 android:id="@+id/eidt_addsonguoio"
                 android:background="@drawable/bg_white_conor_10_border_gary"
-                android:padding="20sp" />
+                android:padding="20dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -77,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16sp">
+            android:padding="16dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -91,7 +83,7 @@
                 android:hint="Nguyễn Xuân Cảnh"
                 android:id="@+id/edit_addtennguoio"
                 android:background="@drawable/bg_white_conor_10_border_gary"
-                android:padding="20sp" />
+                android:padding="20dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -104,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16sp">
+            android:padding="16dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -112,7 +104,7 @@
                 android:text="Tình trạng phòng"/>
 
             <CheckBox
-                android:layout_width="182sp"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:id="@+id/chktt"
@@ -122,28 +114,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="16sp">
+            android:padding="16dp">
 
             <Button
                 android:id="@+id/btn_add_phong"
-                android:layout_width="0sp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="10sp"
+                android:layout_margin="10dp"
 
                 android:layout_weight="1"
                 android:backgroundTint="@color/yellow"
-                android:text="Thêm"
+                android:text="Sửa"
                 android:textColor="@color/black"
-                app:cornerRadius="20sp" />
+                app:cornerRadius="20dp" />
             <Button
-                android:layout_width="0sp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_margin="10sp"
+                android:layout_margin="10dp"
                 android:backgroundTint="@color/yellow"
-                app:cornerRadius="20sp"
+                app:cornerRadius="20dp"
                 android:textColor="@color/black"
-                android:id="@+id/btn_huy_phong"
+                android:id="@+id/huy_phong"
                 android:text="Hủy"/>
         </LinearLayout>
     </LinearLayout>

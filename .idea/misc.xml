@@ -4,15 +4,32 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/drawable-v24/calendar_month-48px.xml" value="0.2985" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/drawable/eyes.xml" value="0.2985" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.2985" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/drawable/ic_delete.xml" value="0.2985" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/drawable/ic_update.xml" value="0.2985" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/drawable/yellow.xml" value="0.2985" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/activity_doanh_thu_nam.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/activity_doanh_thu_thang.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/detail.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/dialod_update_phong.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/dialog_add_hopdong.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/dialog_addphong.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/dialog_delete_phong.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/dialog_update_hopdong.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/dialog_updatephong.xml" value="0.16336633663366337" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/dialog_xoaphong.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/fragment_doanh_thu.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/fragment_doanh_thu_nam.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/fragment_doanh_thu_thang.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/fragment_hoa_don.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/fragment_hop_dong.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/fragment_khach_thue.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/fragment_phongtro_.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/header.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/item_hop_dong.xml" value="0.358695652173913" />
+        <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/layout/item_phong.xml" value="0.358695652173913" />
         <entry key="..\:/AndroidCoBan/QuanLyPhongTro/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/drawable/bg_gary_conor_10.xml" value="0.108" />
         <entry key="..\:/AndroidStudioProject/quanlyduan/app/src/main/res/drawable/bg_white_conor_10.xml" value="0.108" />

@@ -29,22 +29,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:text="Thêm số phòng"/>
+                android:text="Sửa số phòng"/>
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="201"
-                android:id="@+id/edit_addsophong"
-                android:background="@drawable/bg_white_conor_10_border_gary"
-                android:padding="20sp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:id="@+id/loisophong"
-                android:textColor="#FF0101"
-                android:text=""/>
+                android:text="Phòng 201"/>
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -132,7 +124,7 @@
 
                 android:layout_weight="1"
                 android:backgroundTint="@color/yellow"
-                android:text="Thêm"
+                android:text="Sửa"
                 android:textColor="@color/black"
                 app:cornerRadius="20sp" />
             <Button
@@ -143,7 +135,7 @@
                 android:backgroundTint="@color/yellow"
                 app:cornerRadius="20sp"
                 android:textColor="@color/black"
-                android:id="@+id/btn_huy_phong"
+                android:id="@+id/huy_phong"
                 android:text="Hủy"/>
         </LinearLayout>
     </LinearLayout>

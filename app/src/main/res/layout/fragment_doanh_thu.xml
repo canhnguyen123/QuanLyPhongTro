@@ -5,148 +5,53 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        app:title="Thống Kê"
-        app:titleTextColor="@color/white" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal"
-        android:paddingHorizontal="20dp">
-
-        <Button
-            android:id="@+id/btn_ChonNgayBD"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:backgroundTint="@color/black"
-            android:text="Từ Ngày" />
-
-        <TextView
-            android:id="@+id/tv_NgayBD"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Chọn ngày bắt đầu"
-            android:paddingLeft="12dp"
-            android:textSize="20dp"
-            android:textStyle="italic" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal"
-        android:paddingHorizontal="20dp">
-
-        <Button
-            android:id="@+id/btn_ChonNgayKT"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
-            android:backgroundTint="@color/black"
-            android:text="Đến Ngày" />
-
-        <TextView
-            android:id="@+id/tv_NgayKT"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Chọn ngày kết thúc"
-            android:paddingLeft="12dp"
-            android:textSize="20dp"
-            android:textStyle="italic" />
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/btnThongKe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/black"
-        android:gravity="center_vertical"
-        android:text="Thống kê" />
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
         app:cardBackgroundColor="#80DEEA">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10sp">
 
             <TextView
-                android:id="@+id/tvSoDonHang"
+                android:id="@+id/tv_DoanhThuThang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Số đơn hàng"
+                android:text="1.Doanh Thu Theo Tháng"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/tvChiTietDonHang"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:gravity="center"
-                android:text="Nhấn Xem Chi Tiết"
-                android:textColor="#689F38"
-                android:textSize="25sp"
-                android:textStyle="bold" />
-
-
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
         app:cardBackgroundColor="#80DEEA">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10sp">
 
             <TextView
-                android:id="@+id/tvSoDoanhThu"
+                android:id="@+id/tv_DoanhThuNam"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Doanh Thu"
+                android:text="2.Doanh Thu Theo Năm"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="italic" />
-
-            <TextView
-                android:id="@+id/tvChiTietDoanhThu"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:gravity="center"
-                android:text="Nhấn Xem Chi Tiết"
-                android:textColor="#689F38"
-                android:textSize="25sp"
-                android:textStyle="bold" />
-
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
